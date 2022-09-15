@@ -1,0 +1,55 @@
+.home-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-family: monospace;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.home-header {
+  font-size: 2rem;
+}
+
+.home-count {
+  font-size: 10rem;
+  margin: 30px;
+  text-shadow: 10px 5px red;
+}
+
+.home-timer {
+  font-size: 5rem;
+  opacity: 0.5;
+  text-shadow: 5px 5px #424242;
+}
+
+.home-btn-start {
+  background-color: #e7da3d;
+}
+
+.home-btn-click {
+  background-color: #3dd1e7;
+}
+
+.home-btn-reset {
+  background-color: #e73d9f;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: black;
+  width: 50%;
+  max-width: 200px;
+  height: 50px;
+  border: none;
+  font-weight: 600;
+}
+
+.btn:active {
+  background-color: white;
+  border: black 1px solid;
+}
