@@ -1,0 +1,20 @@
+:root {
+  --shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container {
+  height: 85vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}

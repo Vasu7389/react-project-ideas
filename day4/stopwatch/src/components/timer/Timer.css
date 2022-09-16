@@ -1,0 +1,78 @@
+.timer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  margin: 25px 0px;
+  width: 100%;
+}
+
+.timer-row {
+  width: 210px;
+  height: 120px;
+  font-weight: 500;
+  border-radius: 7px;
+  box-shadow: var(--shadow);
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-input-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 7px;
+  z-index: 1;
+}
+
+.timer-input {
+  font-size: 1.8rem;
+  font-weight: 500;
+  border: none;
+  width: 35px;
+  border-bottom: 2px solid rgb(97, 97, 97);
+}
+
+.timer-input:focus {
+  font-size: 1.8rem;
+  font-weight: 500;
+  outline: none;
+}
+
+span {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  color: rgb(97, 97, 97);
+}
+
+.timer-border-ring {
+  border-radius: 7px;
+  position: absolute;
+  border: 5px;
+  background-image: linear-gradient(#9d00ff, #9d00ff, #2e91e5);
+  height: 97%;
+  width: 97%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-border-ring-inner {
+  background: white;
+  height: 92%;
+  width: 95%;
+  border-radius: 4px;
+}

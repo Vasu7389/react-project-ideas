@@ -1,0 +1,14 @@
+.buttons {
+  box-shadow: var(--shadow);
+  padding: 10px 25px;
+  border-radius: 7px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  min-width: 32%;
+  font-size: 1.1rem;
+}
+
+.buttons:hover {
+  box-shadow: rgb(0 0 0 / 45%) 0px 5px 15px;
+}
