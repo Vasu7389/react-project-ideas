@@ -1,0 +1,38 @@
+.item-card {
+  display: inline-block;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #e7e7e7;
+}
+
+.item-brand {
+  color: #7c7c7c;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.item-rating {
+  margin: 10px;
+}
+
+.item-price {
+  font-size: 1.1rem;
+  margin: 10px;
+}
+
+.item-discount {
+}
+
+.item-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}

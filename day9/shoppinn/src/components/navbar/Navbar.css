@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.navbar-ul {
+  list-style-type: none;
+}
+
+.navbar-ul li {
+  padding: 10px;
+  float: left;
+}
+
+.nav-btn {
+  margin: 8px;
+  background-color: rgb(255 101 101);
+  font-family: inherit;
+  border: 0px;
+  font-size: 14px;
+  height: 70%;
+  padding: 8px 10px;
+  cursor: pointer;
+}

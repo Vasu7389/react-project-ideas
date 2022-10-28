@@ -1,0 +1,30 @@
+.checkout-container {
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.custom-row {
+  padding: 6px 15px;
+  margin: 10px;
+  border: 1px solid #cdcdcd;
+  border-radius: 15px;
+  display: block;
+  text-align: left;
+}
+
+.checkout-summary {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.custom-row span {
+  margin: 2px 15px;
+}
+
+.checkout-container a {
+  color: rgb(255 0 57);
+  text-decoration: underline;
+}
