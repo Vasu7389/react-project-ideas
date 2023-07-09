@@ -67,4 +67,4 @@ We are open for your feedback!
 
 ## License
 
-MT
+MIT
