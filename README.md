@@ -1,3 +1,5 @@
+[![GitHub Repo stars](https://img.shields.io/github/stars/Vasu7389/react-project-ideas?style=social)](https://github.com/Vasu7389/react-project-ideas/stargazers)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ## About
 
 This repository is a collection of reactjs projects. It is created so that everyone who wants to learn reactjs can use this repository as a single source of modern web projects. Also this repository is created to build an open source community where developers can add their projects day wise and contribute to it.
