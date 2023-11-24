@@ -1,0 +1,29 @@
+.color-customizer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 110px;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 55px;
+    right: 60px;
+  }
+  
+  .color-customizer-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
