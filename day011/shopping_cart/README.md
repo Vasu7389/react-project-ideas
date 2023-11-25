@@ -1,21 +1,18 @@
-# Add to Cart 
+# Add to Cart
+
 # Icrease and decrease Product quantity
+
 # Delete from Cart
 
 ## Authors
 
 - [Abdullah Moiz](https://www.github.com/Abdullah-moiz)
 
-#### live at
-https://add-to-cart-cyan.vercel.app/
-
-
 ### Tech Used
 
 - tailwind css
 - nextjs
 - redux toolkit
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

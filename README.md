@@ -1,5 +1,6 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/Vasu7389/react-project-ideas?style=social)](https://github.com/Vasu7389/react-project-ideas/stargazers)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 ## About
 
 This repository is a collection of reactjs projects. It is created so that everyone who wants to learn reactjs can use this repository as a single source of modern web projects. Also this repository is created to build an open source community where developers can add their projects day wise and contribute to it.
@@ -61,6 +62,22 @@ In this tutorial we will develop a shopping website using Reactjs Context API. T
 
 In this tutorial we will develop a personal portfolio website using Reactjs. This tutorial will teach you how you can develop your own modern 2023 ready personal portfolio website using reactjs, html & css.  
 The development process is simple and we won't do any API calls. Content/Text for this website will be hardcoded in your components.
+
+#### [Day 11 - shopping_cart](https://github.com/Vasu7389/react-project-ideas/tree/master/day011)
+
+Explore the development journey of a cutting-edge shopping cart application leveraging Tailwind CSS, Next.js, and Redux Toolkit. Learn to craft a seamless, responsive shopping experience by harnessing the power of these technologies.
+
+This project emphasizes shopping cart functionality and was crafted by [Abdullah Moiz](https://www.github.com/Abdullah-moiz).
+
+\*Demo and tutorial is not available on [codinn](https://www.codinn.dev/) yet.
+
+#### [Day 12 - sticky_notes](https://github.com/Vasu7389/react-project-ideas/tree/master/day012)
+
+In this project, we'll dive into crafting an engaging Sticky Notes application employing custom hooks and the Context API. Learn how to build visually appealing, functional notes using these advanced techniques in React.
+
+This was crafted by [drbarzaga](https://github.com/drbarzaga).
+
+\*Demo and tutorial is not available on [codinn](https://www.codinn.dev/) yet.
 
 ## Contributions
 
