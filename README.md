@@ -79,6 +79,14 @@ This was crafted by [drbarzaga](https://github.com/drbarzaga).
 
 \*Demo and tutorial is not available on [codinn](https://www.codinn.dev/) yet.
 
+#### [Day 13 - music_player](https://github.com/Vasu7389/react-project-ideas/tree/master/day013)
+
+In this project, we are going to create a minimalist music player that will be useful for our work sessions or to relax a bit. To achieve this, we will use some tracks available on Bensound for free. Additionally, we will employ custom hooks, the Context API, animations, and learn how to use HTML components like audio within React, enabling us to manage audio in our React applications.
+
+This was crafted by [drbarzaga](https://github.com/drbarzaga).
+
+\*Demo and tutorial is not available on [codinn](https://www.codinn.dev/) yet.
+
 ## Contributions
 
 Feel free to send a pull request to add more reactjs projects.
