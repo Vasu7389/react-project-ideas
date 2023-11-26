@@ -1,0 +1,36 @@
+.display-track-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.track-image-preview-rounded {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+    border: 1px solid #ccc;    
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.track-artist {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: 10px;
+}
