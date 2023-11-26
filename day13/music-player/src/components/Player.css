@@ -1,0 +1,11 @@
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 350px;
+    padding: 30px;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
