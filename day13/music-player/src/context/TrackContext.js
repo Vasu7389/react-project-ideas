@@ -61,7 +61,8 @@ const TrackProvider = ({ children }) => {
             setDuration,
             setTimeProgress,
             setTrackIndex,
-            setTrack
+            setTrack,
+            setTrackIndexFromList
         }}>
             {children}
         </TrackContext.Provider>
