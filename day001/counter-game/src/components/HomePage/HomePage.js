@@ -44,7 +44,7 @@ function HomePage() {
           setTimer(0);
         }}
       >
-        reset
+        resetingnsnfiasn!!!
       </button>
     </div>
   );
