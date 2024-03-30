@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to top, #0066ff, #1750d0, #183aa3, #132779, #091551);
+  color: white;
+  text-align: center;
+  font-family: 'Yusei Magic', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  
+}
+
+h2{
+  margin:10px 0 30px 0;
+  font-size: 3rem;
+}
+span{
+  text-shadow: 0px 0px 10px  #0066ff, 
+               0px 0px 10px  #0066ff, 
+               0px 0px 10px  #0066ff; 
+}
+.doggy{
+  text-align: center;
+  min-height: 200px;
+}
+
+.doggy img{
+  max-width: 300px;
+  height: 300px;
+  object-fit:cover;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  border: 1px solid transparent ;
+  box-shadow:0 0 30px rgba(255, 255, 255, 0.736),
+             0 0 30px #0066ff,
+             0 0 30px #0066ff; 
+  margin-bottom: 25px;
+}
+
+.btn, .btn[disabled="false"]{
+  font-family: 'Yusei Magic', sans-serif;
+  min-width: 100px;
+  appearance: none;
+
+  cursor: pointer;
+  color: #2c3e50;
+  line-height: 1em;
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 9px;
+  background-color: #fff;
+  background-color: rgba(255,255,255, 0);
+  box-shadow: 0 0 0 0 #2c3e50 inset, 0.3em 0.2em 0 0 #667db6;
+  border: 0.2em solid #fff;
+  padding: .8em;
+  margin-top: 20px;
+  text-align: center;
+  transition: 0.25s box-shadow, 0.25s transform;
+  font-size: 18px;
+}
+
+
+.btn[disabled], .btn:hover {
+  box-shadow: 0 4em 0 0 #fff inset, 0em 0em 0 0 #bbb;
+  transform: translate(0.3em, 0.2em);
+  color: #000;
+}
+.btn:active{
+  box-shadow: 0 4em 0 0 #fff inset, 0em 0em 0 0 black;
+  border: 1px solid transparent;
+  color: #000;
+}
+footer{
+  margin:50px;
+}
+footer > a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: bisque;
+}
+select {
+  
+  appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+ width: 15em;
+  height: 3em;
+  padding: 0 4em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center / 1.4em, linear-gradient(to left, rgba(255, 255, 255, 0.3) 3em, rgba(255, 255, 255, 0.2) 3em);
+  color: white;
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  
+}
+select option {
+  color: black;
+  background: #c2e9fb;
+}
+select:focus {
+  outline: none;
+}
+select::-ms-expand {
+  display: none;
+}
+p{
+  color: wheat;
+  font-size: 1.2rem;
+}
