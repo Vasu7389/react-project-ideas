@@ -388,4 +388,4 @@ We're committed to fostering an open and welcoming environment. Please read and 
 
 ## License
 
-MIT
+[MIT](https://github.com/Vasu7389/react-project-ideas/blob/master/LICENSE)
