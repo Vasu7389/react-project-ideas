@@ -16,10 +16,13 @@ function BreedSelector({ breeds, selectedBreed, setSelectedBreed, getDogs }) {
       </select>
      <br/>
       <button className='btn' onClick={getDogs}>
-        Generate Dog
+        Generate a Dog
       </button>
+      <p>{selectedBreed ? `Generating a ${selectedBreed}...` : "Generating a random dog..."}</p>
     </div>
   );
 }
+
+
 
 export default BreedSelector;
