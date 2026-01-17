@@ -4,47 +4,69 @@ import "./HomePage.css";
 function HomePage() {
   const [count, setCount] = useState(0);
   const [timer, setTimer] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+
   useEffect(() => {
-    if (timer === 0) return;
+    if (timer === 0 || isPaused) return;
 
     const interval = setInterval(() => {
-      setTimer(timer - 1);
+      setTimer((prev) => prev - 1);
     }, 1000);
 
-    return () => {
-      clearInterval(interval);
-    };
-  }, [timer]);
+    return () => clearInterval(interval);
+  }, [timer, isPaused]);
+
+  const handleStart = () => {
+    setTimer(30);
+    setCount(0);
+    setIsPaused(false);
+  };
+
+  const handlePauseResume = () => {
+    setIsPaused((prev) => !prev);
+  };
+
+  const handleStop = () => {
+    setTimer(0);
+    setCount(0);
+    setIsPaused(false);
+  };
 
   return (
     <div className="home-container">
-      <div className="home-timer">timer:{timer}</div>
+      <div className="home-timer">Timer: {timer}</div>
       <div className="home-count">{count}</div>
+
       <button
         className="home-btn-start btn"
-        onClick={() => {
-          setTimer(10);
-          setCount(0);
-        }}
+        onClick={handleStart}
         disabled={timer !== 0}
       >
-        start
+        Start
       </button>
+
       <button
         className="home-btn-click btn"
-        onClick={() => setCount(count + 1)}
+        onClick={() => setCount((prev) => prev + 1)}
+        disabled={timer === 0 || isPaused}
+      >
+        Click Me
+      </button>
+
+      <button
+        className="home-btn-pause btn"
+        onClick={handlePauseResume}
         disabled={timer === 0}
       >
-        click me
+        {isPaused ? "Resume" : "Pause"}
       </button>
+
       <button
-        className="home-btn-reset btn"
-        onClick={() => {
-          setCount(0);
-          setTimer(0);
-        }}
+        className="home-btn-stop btn"
+        onClick={handleStop}
+        disabled={timer === 0}
       >
-        reset
+        Stop
       </button>
     </div>
   );
